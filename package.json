@@ -1,0 +1,19 @@
+{
+  "name": "contacts_import",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csvtojson": "^2.0.10",
+    "json-csv": "^3.0.1",
+    "lodash": "^4.17.15",
+    "pg": "^8.2.1",
+    "rambda": "^5.4.1"
+  }
+}
