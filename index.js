@@ -15,7 +15,7 @@ const {
 const URL_UNIQ = "https://enaak18yvnf8.x.pipedream.net/";
 
 const start = async () => {
-  await generateSQLfromCSV("sws.csv", getSqlQuerySWS, mapper_sws, filter_sws);
+  // await generateSQLfromCSV("sws.csv", getSqlQuerySWS, mapper_sws, filter_sws);
   // await sqlExecutor(["1_1000"], pickUniqFields);
   const token=await proceedAuthorization();
   await uploadExecutor(["1_1000"], {url: URL_UNIQ, token});
